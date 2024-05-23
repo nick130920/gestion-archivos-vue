@@ -1,4 +1,5 @@
 import HomePage from "pages/HomePage.vue";
+import DocumentCard from "components/DocumentCard.vue";
 
 const routes = [
   {
@@ -6,6 +7,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '/', component: HomePage },
+      { path: '/grid', component: DocumentCard },
     ]
   },
   {

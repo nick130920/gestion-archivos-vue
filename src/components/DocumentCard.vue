@@ -27,7 +27,6 @@
 
 <script>
 export default {
-  name: "DocumentCard.vue",
   props: {
     document: Object,
   },
